@@ -1,4 +1,4 @@
-html {
+html, body {
     font-family: arial,sans-serif;
     font-size: 13px;
     width: 100%;
@@ -13,6 +13,8 @@ body * {
     margin: 5px;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .header, .footer{
@@ -25,4 +27,8 @@ body * {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer {
+    padding-bottom: 10px;
 }
